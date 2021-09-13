@@ -2,7 +2,7 @@ package Exercicio04;
 
 import java.util.Scanner;
 
-public class calculaFolha {
+public class CalculaFolha {
 	public static void main(String[] args) {
 		Scanner leitor = new Scanner(System.in);
 		Func funcionario = new Func(); 
@@ -20,7 +20,7 @@ public class calculaFolha {
 					Float salarioFim = funcionario.calculaAumento(valorSalario);
 				
 					if(salarioFim == valorSalario) {
-						System.out.println("Você não tem acesso ao aumento");
+						System.out.println("VocÃª nÃ£o tem acesso ao aumento");
 					} else {
 						System.out.println("Salario com aumento: R$"+salarioFim);
 					}
