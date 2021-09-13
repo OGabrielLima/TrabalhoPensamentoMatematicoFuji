@@ -2,11 +2,11 @@ package Exercicio01;
 
 import java.util.Scanner;
 
-public class calculaFolhaFuncionario {
+public class CalculaFolhaFuncionario {
 	public static void main(String[] args) {
 		Funcionario funcionario = new Funcionario();
 		Scanner leitor = new Scanner(System.in);
-		System.out.println("Informe seu sal·rio: ");
+		System.out.println("Informe seu sal√°rio: ");
 		
 		float valorSalario = leitor.nextFloat();
 		funcionario.setSalario(valorSalario);
